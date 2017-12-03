@@ -46,7 +46,7 @@ li {
     font-size: .6em;
     position: relative;
     width: 75vw;
-    height: 200px;
+
     border: 1px solid gray;
     margin: 15px auto;
     margin-bottom: 40px;
@@ -54,22 +54,40 @@ li {
 }
 .topsection h3{
     font-size: 2.5em;
+    margin-bottom: 10px;
 }
 .avatarContainer{
     font-size: 1em;
-    display: inline;
-    border: 2px solid rgba(0, 0, 0, 0.37);
-    width: 100px;
+    /* display: inline; */
+    /* border: 2px solid rgba(0, 0, 0, 0.37); */
     height: 25px;
+    width: 30%;
+    margin:0 0 30px 0;
+    display: flex;
 }
 .avatarContainer .security{
     font-size: 1.2em;
+    color: rgb(0, 0, 97);
+
 }
-.avatar, .image{
-    background-color: rgba(0, 0, 0, 0.425);
-    height: 25px;
-    width: 25px;
-    display: inline;
+.avatarimage{
+    background-color: rgba(10, 96, 207, 0.425);
+    height:100%;
+    width:25px;
+    margin-right:5px;
+}
+
+.security{
+    margin-top: 5px;
+}
+
+.avatarUl a:focus {
+    border: 1px solid rgba(128, 128, 128, 0.541);
+    margin: 0px;
+    padding: 3px 10px 9px 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: black;
 }
 .avatarUl a {
     text-decoration-line: none;
@@ -77,11 +95,23 @@ li {
 .avatarUl{
     position: absolute;
     bottom: 10px;
+    width: 100%;
 }
+
 .topsection li{
-    border: 1px solid rgba(128, 128, 128, 0.541);
-    margin: 0px;
-    padding: 3px 10px 9px 10px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+color: rgb(18, 1, 165);
+}
+.topsection li:focus{
+color: rgb(0, 0, 3);
+}
+.right{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+.edit, .actions{
+    padding: 0 15px;
+}
+.edit {
+    border-right: 1px solid rgba(128, 128, 128, 0.473);
 }

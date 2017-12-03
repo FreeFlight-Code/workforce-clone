@@ -14,17 +14,17 @@
     <span id='header_logo'></span>
     <header>
         <span classname='leftside'>
-        <ul id='header_links'>
-            <li>My Work</li>
-            <li>Projects</li>
-            <li>Reporting</li>
-            <li>People</li>
-            <li>Requests</li>
-            <li>Timesheet</li>
-            <li>Documents</li>
-        </ul>
+            <ul id='header_links'>
+                <a><li>My Work</li></a>
+                <a><li>Projects</li></a>
+                <a><li>Reporting</li></a>
+                <a><li>People</li></a>
+                <a><li>Requests</li></a>
+                <a><li>Timesheet</li></a>
+                <a><li>Documents</li></a>
+            </ul>
         </span>
-        
+
         <div classname='rightside'>
             <span>Search</span>
             <input type="search">
@@ -33,20 +33,54 @@
     </header>
     <div class="topsection">
         <h3 class="title">Web Development</h3>
-        <!-- <div class="avatarContainer">
-            <img class='avatar image'src="" alt="">
-            <div>Project Owner</div>
-            <div class="avatar security">Admin User</div>
-        </div> -->
-            <ul class="avatarUl">
-                <a href='#'><li>Tasks</li></a>
-                <a href='#'><li>Project Details</li></a>
-                <a href='#'><li>Updates</li></a>
-                <a href='#'><li>Documents</li></a>
-                <a href='#'><li>Issues</li></a>
-                <a href='#'><li>Risks</li></a>
-                <a href='#'><li>More</li></a>
-            </ul>
+        <div class="avatarContainer">
+            <span class="avatarimage"></span>
+            <div>
+                <div>Project Owner</div>
+                <div class="avatar security">Admin User</div>
+            </div>
+        </div>
+        <ul class="avatarUl">
+            <a href='#'>
+                <li>Tasks</li>
+            </a>
+            <a href='#'>
+                <li>Project Details</li>
+            </a>
+            <a href='#'>
+                <li>Updates</li>
+            </a>
+            <a href='#'>
+                <li>Documents</li>
+            </a>
+            <a href='#'>
+                <li>Issues</li>
+            </a>
+            <a href='#'>
+                <li>Risks</li>
+            </a>
+            <a href='#'>
+                <li>More</li>
+            </a>
+        </ul>
+        <div class="right">
+            <span class='edit'>Edit Project</span>
+            <span class='actions'>Project Actions</span>
+            <div>
+            <span class='status'>
+                <p>Status</p>
+                <div>Current</div>
+            </span>
+            <span class='condition'>
+                <p>Condition</p>
+                <div>On Target</div>
+            </span>
+            <span class='planned_completion'>
+                <p>Planned Completion</p>
+                <div>Jul 30, 2016</div>
+            </span>
+            </div>
+        </div>
     </div>
     <script src="./js.js"></script>
 </body>
