@@ -11,17 +11,31 @@
 </head>
 
 <body>
-    <span id='header_logo'></span>
+    <span id='header_logo'><img class='logo' src='./logo.PNG' alt=''></span>
     <header>
         <span classname='leftside'>
             <ul id='header_links'>
-                <a><li>My Work</li></a>
-                <a><li>Projects</li></a>
-                <a><li>Reporting</li></a>
-                <a><li>People</li></a>
-                <a><li>Requests</li></a>
-                <a><li>Timesheet</li></a>
-                <a><li>Documents</li></a>
+                <a>
+                    <li>My Work</li>
+                </a>
+                <a>
+                    <li>Projects</li>
+                </a>
+                <a>
+                    <li>Reporting</li>
+                </a>
+                <a>
+                    <li>People</li>
+                </a>
+                <a>
+                    <li>Requests</li>
+                </a>
+                <a>
+                    <li>Timesheet</li>
+                </a>
+                <a>
+                    <li>Documents</li>
+                </a>
             </ul>
         </span>
 
@@ -32,9 +46,15 @@
         </div>
     </header>
     <div class="topsection">
-        <h3 class="title">Web Development</h3>
+        <span>
+            <img class='image' src='http://mmu.cesuvt.org/uploaded/MMUHS/2016-17/desk_calendar_img4.png' alt='calendar'>
+        </span>
+        <span class="title">Web Development</span>
         <div class="avatarContainer">
-            <span class="avatarimage"></span>
+            <span class="avatarimage">
+                <img class='image' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy2U24u8_8Cx1yLYGeECiczrAmryZ5ODT6O4p7ARikumvlzrS3'
+                    alt='avatar image'>
+            </span>
             <div>
                 <div>Project Owner</div>
                 <div class="avatar security">Admin User</div>
@@ -64,21 +84,23 @@
             </a>
         </ul>
         <div class="right">
-            <span class='edit'>Edit Project</span>
-            <span class='actions'>Project Actions</span>
             <div>
-            <span class='status'>
-                <p>Status</p>
-                <div>Current</div>
-            </span>
-            <span class='condition'>
-                <p>Condition</p>
-                <div>On Target</div>
-            </span>
-            <span class='planned_completion'>
-                <p>Planned Completion</p>
-                <div>Jul 30, 2016</div>
-            </span>
+                <span class='edit'>Edit Project</span>
+                <span class='actions'>Project Actions</span>
+            </div>
+            <div class='projectContainer'>
+                <span class='status'>
+                    <p>Status</p>
+                    <div class='projectVariable'>Current</div>
+                </span>
+                <span class='condition'>
+                    <p>Condition</p>
+                    <div class='projectVariable'>On Target</div>
+                </span>
+                <span class='planned_completion'>
+                    <p>Planned Completion</p>
+                    <div class='projectVariable'>Jul 30, 2016</div>
+                </span>
             </div>
         </div>
     </div>
